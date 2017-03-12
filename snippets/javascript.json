@@ -1,0 +1,12 @@
+{
+  "Webpack start": {
+    "prefix": "wpstart",
+    "description": "Webpack Snippet Start",
+    "body": [
+      "use strict",
+      "module.exports = {",
+      "\tentry: '${entry}'",
+      "}"
+    ]
+  }
+}
