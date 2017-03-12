@@ -1,5 +1,5 @@
 {
-	"Webpack start": {
+  "webpackStart": {
     "prefix": "wpstart",
     "description": "Webpack Snippet Start",
     "body": [
@@ -25,10 +25,10 @@
       "\tplugins: [",
       "\t]",
       "};",
-			""
+      ""
     ]
   },
-  "Webpack Module Add Rule": {
+  "webpackModuleAddRule": {
     "prefix": "wprule",
     "description": "Add a new rule in rules Array",
     "body": [
@@ -38,59 +38,59 @@
       "}"
     ]
   },
-	"Require Webpack": {
-		"prefix": "wprequire",
-		"description": "Require Webpack.",
-		"body": [
-			"const webpack = require('webpack');"
-		]
-	},
-	"Add Chunk Plugin": {
-		"prefix": "wpochunk",
-		"description": "Add webpack.optimize.CommonsChunkPlugin",
-		"body": [
-			"new webpack.optimize.CommonsChunkPlugin({",
-    	"\tname: '${name}',",
-    	"\tfilename: '${file}.min.js',",
-  		"})"
-		]
-	},
-	"Add UglifyJS Plugin": {
-		"prefix": "wpougf",
-		"description": "Add webpack.optimize.UglifyJsPlugin",
-		"body": [
-			"new webpack.optimize.UglifyJsPlugin({",
-    	"\tcompress: {",
+  "requireWebpack": {
+    "prefix": "wprequire",
+    "description": "Require Webpack.",
+    "body": [
+      "const webpack = require('webpack');"
+    ]
+  },
+  "addChunkPlugin": {
+    "prefix": "wpochunk",
+    "description": "Add webpack.optimize.CommonsChunkPlugin",
+    "body": [
+      "new webpack.optimize.CommonsChunkPlugin({",
+      "\tname: '${name}',",
+      "\tfilename: '${file}.min.js',",
+      "})"
+    ]
+  },
+  "addUglifyJSPlugin": {
+    "prefix": "wpougf",
+    "description": "Add webpack.optimize.UglifyJsPlugin",
+    "body": [
+      "new webpack.optimize.UglifyJsPlugin({",
+      "\tcompress: {",
       "\t\twarnings: false,",
       "\t\tdrop_console: false",
-    	"\t}",
-  		"})"
-		]
-	},
-	"Add Define Plugin": {
-		"prefix": "wpodef",
-		"description": "Add webpack.DefinePlugin",
-		"body": [
-			"new webpack.DefinePlugin({",
-    	"\t'process.env.NODE_ENV': '\"${production}\"',",
-  		"})"
-		]
-	},
-	"Require Extract Text Plugin": {
-		"prefix": "wprex",
-		"description": "Require Extract Text Plugin",
-		"body": [
-			"const ExtractTextPlugin = require('extract-text-webpack-plugin');"
-		]
-	},
-	"Add Extract Text Plugin": {
-		"prefix": "wpoex",
-		"description": "Add ExtractTextPlugin",
-		"body": [
-			"new ExtractTextPlugin({",
-    	"\tfilename: '${fileName}',",
-    	"\tallChunks: true,",
-  		"})"
-		]
-	}
+      "\t}",
+      "})"
+    ]
+  },
+  "addDefinePlugin": {
+    "prefix": "wpodef",
+    "description": "Add webpack.DefinePlugin",
+    "body": [
+      "new webpack.DefinePlugin({",
+      "\t'process.env.NODE_ENV': '\"${production}\"',",
+      "})"
+    ]
+  },
+  "requireExtractTextPlugin": {
+    "prefix": "wprex",
+    "description": "Require Extract Text Plugin",
+    "body": [
+      "const ExtractTextPlugin = require('extract-text-webpack-plugin');"
+    ]
+  },
+  "addExtractTextPlugin": {
+    "prefix": "wpoex",
+    "description": "Add ExtractTextPlugin",
+    "body": [
+      "new ExtractTextPlugin({",
+      "\tfilename: '${fileName}',",
+      "\tallChunks: true,",
+      "})"
+    ]
+  }
 }

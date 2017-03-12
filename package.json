@@ -2,7 +2,7 @@
   "name": "webpack-snippets",
   "publisher": "gogocrow",
   "displayName": "Webpack Snippets",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Webpack Snippets",
   "icon": "icon.svg",
   "main": "index.js",
