@@ -2,10 +2,9 @@
   "name": "webpack-snippets",
   "publisher": "gogocrow",
   "displayName": "Webpack Snippets",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Webpack Snippets",
   "icon": "icon.svg",
-  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
