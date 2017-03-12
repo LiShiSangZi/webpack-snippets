@@ -1,0 +1,40 @@
+{
+  "name": "webpack-snippets",
+  "publisher": "gogocrow",
+  "displayName": "Webpack Snippets",
+  "version": "0.0.1",
+  "description": "Webpack Snippets",
+  "icon": "icon.svg",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "vscode": "^1.10.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [{
+        "language": "javascript",
+        "path": "./snippets/javascript.json"
+      }
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LiShiSangZi/webpack-snippets"
+  },
+  "keywords": [
+    "webpack",
+    "vscode-extension",
+    "snippets"
+  ],
+  "author": "gogocrow <jane19861227@hotmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LiShiSangZi/webpack-snippets/issues"
+  },
+  "homepage": "https://github.com/LiShiSangZi/webpack-snippets#readme"
+}
