@@ -1,5 +1,6 @@
 # Webpack Snippets for VS Code
 
+[![vscode version][vs-image]][vs-url]
 
 This extension adds snippets for Webpack configuration file.
 
@@ -18,3 +19,6 @@ wpodef    // Generate webpack.DefinePlugin code.
 wpoex     // Generate ExtractTextPlugin code.
 ```
 
+
+[vs-url]: https://marketplace.visualstudio.com/items?itemName=gogocrow.webpack-snippets
+[vs-image]: http://vsmarketplacebadge.apphb.com/version/gogocrow.webpack-snippets.svg
