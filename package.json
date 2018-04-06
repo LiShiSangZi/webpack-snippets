@@ -2,10 +2,11 @@
   "name": "webpack-snippets",
   "publisher": "gogocrow",
   "displayName": "Webpack Snippets",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Webpack Snippets",
   "icon": "icon.png",
   "scripts": {
+    "release": "standard-version",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "engines": {
@@ -15,7 +16,8 @@
     "Snippets"
   ],
   "contributes": {
-    "snippets": [{
+    "snippets": [
+      {
         "language": "javascript",
         "path": "./snippets/javascript.json"
       }
@@ -35,5 +37,8 @@
   "bugs": {
     "url": "https://github.com/LiShiSangZi/webpack-snippets/issues"
   },
-  "homepage": "https://github.com/LiShiSangZi/webpack-snippets#readme"
+  "homepage": "https://github.com/LiShiSangZi/webpack-snippets#readme",
+  "dependencies": {
+    "standard-version": "^4.3.0"
+  }
 }
