@@ -21,4 +21,4 @@ wpoex     // Generate ExtractTextPlugin code.
 
 
 [vs-url]: https://marketplace.visualstudio.com/items?itemName=gogocrow.webpack-snippets
-[vs-image]: http://vsmarketplacebadge.apphb.com/version/gogocrow.webpack-snippets.svg
+[vs-image]: https://vsmarketplacebadge.apphb.com/version/gogocrow.webpack-snippets.svg

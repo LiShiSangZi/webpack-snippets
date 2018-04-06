@@ -4,7 +4,7 @@
   "displayName": "Webpack Snippets",
   "version": "0.0.3",
   "description": "Webpack Snippets",
-  "icon": "icon.svg",
+  "icon": "icon.png",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
